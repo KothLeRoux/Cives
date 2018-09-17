@@ -2,15 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DecorManager : MonoBehaviour {
+public class DecorManager : MonoBehaviour
+{
+    public bool able = false;
+    public bool hasInteract = false;
+    public Decor btn;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    private void Start()
+    {
+
+    }
+
+    private void Update()
+    {
+        if (able == true && hasInteract == false)
+        {
+            btn.Interact();
+            hasInteract = true;
+        }
+    }
 }

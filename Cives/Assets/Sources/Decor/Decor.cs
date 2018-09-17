@@ -2,15 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Decor : MonoBehaviour {
+public class Decor : MonoBehaviour
+{
+    public DecorScript[] triggers;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public void Interact()
+    {
+        foreach (DecorScript elem in triggers)
+            elem.Trigger(gameObject, "nothing");
+        DecorScript[] scripts = GetComponents<DecorScript>();
+        foreach (DecorScript script in scripts)
+            script.selfTrigger();
+    }
 }

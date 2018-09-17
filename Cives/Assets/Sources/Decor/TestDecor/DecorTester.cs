@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StaticDecor : MonoBehaviour {
+public class DecorTester : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
