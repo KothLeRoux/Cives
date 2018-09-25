@@ -4,24 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Monster
-  - MinimapCamera
-  - Fire
-  - InventorySlot
-  - EquipmentSlot
-  - TrashSlot
-  - SkillsSlot
-  - SkillbarSlot
-  - DragAndDropHandler
-  - LootSlot
-  - NpcSellSlot
-  - TradingSlot
-  - Npc
-  - CraftingIngredientSlot
-  - CraftingResultSlot
-  - ItemMallSlot
-  - Pet
-  - NpcPetReviveSlot
+  - Interactable
   layers:
   - Default
   - TransparentFX

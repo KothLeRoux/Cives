@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: 00000000000000000000000000000000
+  productGUID: e16fe189579fff943b1da630319700fb
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -731,7 +731,7 @@ PlayerSettings:
   facebookSdkVersion: 7.9.1
   apiCompatibilityLevel: 2
   cloudProjectId: 3a9c04f1-b3c0-4550-9fcb-b0bf209ea802
-  projectName: 
+  projectName: Cives
   organizationId: stillhammer
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0

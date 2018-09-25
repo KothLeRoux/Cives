@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Decor : MonoBehaviour
 {
+    public int decorId;
     public DecorScript[] triggers;
 
     public void Interact()
@@ -13,5 +14,11 @@ public class Decor : MonoBehaviour
         DecorScript[] scripts = GetComponents<DecorScript>();
         foreach (DecorScript script in scripts)
             script.selfTrigger();
+    }
+
+    // temporary, need Cives interaction to be deleted
+    private void OnMouseUpAsButton()
+    {
+        Interact();
     }
 }
