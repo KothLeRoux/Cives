@@ -7,7 +7,7 @@ public class Decor : MonoBehaviour
     public int decorId;
     public DecorScript[] triggers;
 
-    public void Interact()
+    public virtual void Interact()
     {
         foreach (DecorScript elem in triggers)
             elem.Trigger(gameObject, "nothing");
